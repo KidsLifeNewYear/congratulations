@@ -1,0 +1,57 @@
+@font-face{
+font-family: 'Lato';
+src: url('./fonts/Lato/Lato-Regular.ttf') format('truetype');
+font-weight: normal;
+font-style: normal;
+}
+@font-face{
+font-family: 'Lato';
+src: url('./fonts/Lato/Lato-Bold.ttf') format('truetype');
+font-weight: bold;
+font-style: normal;
+}
+@font-face{
+font-family: 'PF Din Text Cond Pro';
+src: url('./fonts/PF/PF Din Text Cond Pro.ttf') format('truetype');
+font-weight: normal;
+font-style: normal;
+}
+@font-face{
+font-family: 'Karla';
+src: url('./fonts/Karla/Karla-Regular.ttf') format('truetype');
+font-weight: normal;
+font-style: normal;
+}
+/* Header */
+nav a,
+li a,
+.btn_blue{
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 17px;
+}
+
+.head h5{
+    color: var(--primary);
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+    text-transform: uppercase;
+}
+.head h3{
+    font-family: 'PF Din Text Cond Pro';
+    font-size: 50px;
+    line-height: 55px;
+}
+.contacts div a{
+    font-family: 'Karla';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 16px;
+    text-align: center;
+}
